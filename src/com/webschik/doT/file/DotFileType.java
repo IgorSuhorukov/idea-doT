@@ -22,7 +22,7 @@ public class DotFileType extends LanguageFileType implements TemplateLanguageFil
     public static final LanguageFileType INSTANCE = new DotFileType();
 
     @NonNls
-    public static final String DEFAULT_EXTENSION = "dot";
+    public static final String DEFAULT_EXTENSION = "tpl";
 
     private DotFileType() {
         super(DotLanguage.INSTANCE);
